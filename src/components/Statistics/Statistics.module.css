@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100%;
+    /* justify-content: center; */
+}
+
+.title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    font-weight: wrap;
+}
+.cards>:nth-child(1)
+{
+    align-items: center;
+    display: flex;
+    gap: 0.8rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    color: var(--grey);
+    gap: 0.5rem;
+}
+
+.card>:nth-child(1)
+{
+    font-size: 0.8rem;
+}
+
+.card>:nth-child(2)
+{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.arrowIcon{
+    width: 2rem;
+    height: 2rem;
+
+    background: var(--orange);
+    border-radius: 5px
+}
+.arrowIcon >svg{
+    width: 2rem;
+    height: 2rem;
+    color: black;
+}

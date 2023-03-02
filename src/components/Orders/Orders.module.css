@@ -1,0 +1,67 @@
+.container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.head > img {
+  width: 2rem;
+}
+.stat {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  color: var(--grey);
+}
+.stat > :nth-child(1) {
+  font-size: 0.8rem;
+}
+.stat > :nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ gap: 1.5rem;
+}
+.order>div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: var(--grey);
+    font-size: 0.85rem;
+}
+
+.order>:nth-child(1)
+{
+    margin-bottom: 0.8rem;
+}
+.order>:nth-child(1)>:nth-child(1)
+{
+    font-size: 1rem;
+}
+.order>:nth-child(1)>:nth-child(2)
+{
+    font-size: 0.8rem;
+    color: var(--green);
+}
+.orderChart{
+    width: 100%;
+}
+.orderChart>:nth-child(1)
+{
+    text-align: center;
+}
+

@@ -1,0 +1,84 @@
+:root {
+  --transparent-black: rgba(0, 0, 0, 0.294);
+  --black: #111111;
+  --grey: rgba(255, 255, 255, 0.597);
+  --orange: #ff805d;
+  --green: rgb(54, 234, 54);
+  --orange-gradient: linear-gradient(
+    268.35deg,
+    rgba(255, 70, 70, 0.99) 3.47%,
+    rgba(255, 114, 70, 0.99) 60.18%
+  );
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+#dashboard {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--black);
+  color: white;
+  font-family: "Public Sans", sans-serif;
+  overflow: hidden;
+}
+
+.theme-container {
+  background: rgba(0, 0, 0, 0.59);
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.gradient-red {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #ff5d5d;
+  filter: blur(90px);
+}
+.gradient-orange {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: var(--orange);
+  filter: blur(90px);
+}
+.gradient-blue {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #5dc9ff;
+  filter: blur(90px);
+}
+
+.grey-container {
+  border-top: 0.3px solid rgba(255, 255, 255, 0.185);
+  border-bottom: 0.3px solid rgba(255, 255, 255, 0.185);
+  background: linear-gradient(
+    90deg,
+    rgba(53, 53, 53, 0) 1.21%,
+    rgba(53, 53, 53, 0.46) 49.45%,
+    rgba(53, 53, 53, 0) 103.83%
+  );
+  padding: 1.5rem 1rem;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  width: 5px;
+}
