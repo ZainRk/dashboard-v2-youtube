@@ -4,3 +4,12 @@
     padding: 0rem 5rem;
     max-width: 1100px;
 }
+.fc-event{
+    background: var(--orange-gradient)!important;
+}
+.fc .fc-timegrid-slot{
+    height: 2.5rem!important;
+}
+td{
+    border : 1px solid var(--grey)!important
+}
