@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color: white
+}
+.container>div{
+    margin-top: 2rem;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.input{
+    color: white;
+    font: inherit;
+    margin-top: 12px;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgb(98, 98, 98);
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    resize: none
+}
+
+.saveButton{
+    width: 6rem;
+    align-self: flex-end;
+    margin-top: 1.5rem;
+    background: var(--orange-gradient);
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.saveButton:disabled{
+    background: grey;
+}
